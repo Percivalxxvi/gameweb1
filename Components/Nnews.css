@@ -101,3 +101,39 @@
     width: 100%;
     object-fit: cover;
 }
+
+@media(width<=500px){
+    .nnews{
+        width: 100%;
+    }
+    .nnews-txt{
+        display: flex;
+        flex-direction: column;
+        color: white;
+        height: 15%;
+        width: 75%;
+        position:null;
+        /* justify-content: flex-end; */
+        /* margin-top: 200px; */
+        /* background-color: red; */
+        
+    }
+    .nnews-txt h1{
+        font-size: 18px;
+    }
+    .bg{
+        height: 100%;
+        transition: 0.5s;
+        width: 100%;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    
+    .bg:hover{
+        scale:1.0;
+        transition: 0.5s;
+        transform: rotate(0deg);
+        cursor: pointer;
+    }
+    
+}

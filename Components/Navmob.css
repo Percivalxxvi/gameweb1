@@ -3,8 +3,7 @@
     display: flex;
     flex-direction: column;
     /* background-color: #3755c7; */
-    background: linear-gradient(to top,rgba(39, 23, 108, 1),
-    rgba(60, 60, 204, 1));
+    background: rgba(60, 60, 204, 1);
     /* height: 100vh; */
     /* width: 90%; */
     padding-left: 10px;
@@ -17,12 +16,12 @@
     display: flex;
     flex-direction: column;
     align-items: left;
-    /* height: 100%; */
+    height: fit-content;
     width: 100%;
     /* width: 0%; */
-    gap: 5px;
+    /* gap: 15px; */
     /* text-align: center; */
-    background-color: red;
+    /* background-color: white; */
 }
 .navmob-pgs1{
     display: flex;
@@ -34,8 +33,9 @@
     /* padding: 0 20px 0 20px; */
     /* justify-content: center; */
     height: 100%;
-    width: 0px;
-    background-color: #263366;
+    width: 100%;
+    /* background-color: #263366; */
+    background-color: rgba(255, 255, 255, 0.326);
 }
  .navmob-pgs10{
     display: flex;
@@ -76,8 +76,9 @@
     /* text-align: center; */
     /* gap: 10px; */
     height: 75%;
-    width:8%;
-    /* background-color: blueviolet; */
+    width:100%;
+    border: solid 0.2px blue;
+    background-color: rgba(60, 60, 204, 0.5);
 }
 .navmob-pgs02{
     display: flex;
@@ -166,4 +167,17 @@
     height: 100%;
     width: 50%;
     object-fit: cover;
+}
+.mobpg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    width: 50%;
+    /* background-color: blueviolet; */
+}
+.mobpg h1{
+    font-size: 25px;
+    color: #f0f0f0;
+    margin-left: 300px;
 }

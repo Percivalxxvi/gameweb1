@@ -98,10 +98,10 @@
     width: 90%;
     background-color: blueviolet;
 } */
-.mobpg h1{
+/* .mobpg h1{
     font-size: 25px;
     color: #f0f0f0;
-}
+} */
 
 @media(width<=500px){
     .about-os{

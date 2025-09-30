@@ -26,6 +26,7 @@ import Navmob from '../Components/Navmob'
 
 
 const Home = () => {
+  const [zoom, setZoom]=useState(false)
   const [isOpen, setOpen] = useState(false)
   const responsive = {
   superLargeDesktop: {
@@ -130,10 +131,11 @@ const Home = () => {
                   
                 </div>
                 <div className='secdiv1b'>
-                  <div className='secdiv1bb'>
-                    <img src="https://xtratheme.com/elementor/game/wp-content/uploads/sites/84/2018/04/vg2.jpg" alt="" />
+                  <div onMouseEnter={()=>setZoom(true)}
+                    onMouseLeave={()=>setZoom(false)} className='secdiv1bb'>
+                    <img style={{scale:zoom ? "1.08":"" }} src="https://xtratheme.com/elementor/game/wp-content/uploads/sites/84/2018/04/vg2.jpg" alt="" />
                     <div className='play'>
-                      <div className='play1'>
+                      <div style={{scale:zoom ? "1.08":"" }} className='play1'>
                         <img src={playbutton2} alt="" />
                       </div>
                       <div className='play2'>

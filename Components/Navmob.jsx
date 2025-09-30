@@ -18,7 +18,7 @@ const Navmob = ({page,page1}) => {
 
         <div style={{display:isOpen?"flex":"none"}} className='navmob-pgs'>
         <div style={{backgroundColor: page==="home"?"#263366":""}} className='navmob-pgs0'>
-          <Link to={"/"} style={{backgroundColor: page==="home"?"#263366":"" , width:"100%"}} className='navmob-pgs10'>Home</Link>
+          <Link to={"/"} style={{backgroundColor: page==="home"?"#263366":"" , width:"100%"}} className='navmob-pgs1'>Home</Link>
         </div>
         <div className='navmob-pgs0'><Link className='navmob-pgs1'>PS5</Link></div>
         <div className='navmob-pgs0'><Link className='navmob-pgs1'>Xbox</Link></div>
