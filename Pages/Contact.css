@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+.contact h1{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: white;
+}
+.contact-items{
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    /* background-color: turquoise; */
+    /* background-color: hsla(200, 0%, 0%, 0.8); */
+}
+.contact-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90%;
+    width: 30%;
+    gap: 10px;
+    /* color: white; */
+    /* background-color: tomato; */
+}
+.contact-img{
+    /* background-color: violet; */
+    border: 1px solid #4469ff7e;
+    background: rgba(68, 106, 255, 0.2);
+    box-shadow: 0px 0px 50px rgba(72, 0, 255, 0.3);
+    /* height: 40%; */
+    height: 100px;
+    /* width: 40%; */
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact-img img{
+    height: 40%;
+    width: 40%;
+    object-fit: contain;
+}
+.contact-item h1{
+    color: white;
+    /* margin-top: 10px; */
+    font-size: 20px;
+    /* background-color: turquoise; */
+}
+.contact-item p{
+    color: #f0f0f0;
+    margin-top: -15px;
+    font-size: 16px;
+    text-align: center;
+    /* background-color: turquoise; */
+}
+.form{
+    /* background-color: yellow; */
+    display: flex;
+    width: 50%;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.inputs1{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    /* background-color: aqua; */
+}
+.contact-input1{
+    height: 50px;
+    width: 48%;
+    background: rgba(68, 106, 255, 0.2);
+    border: 1px solid #4469ff7e;
+    color: white;
+    /* padding-left: 10px; */
+}
+.contact-input1:focus{
+  outline: none;
+  border: 1px solid #446aff;
+}
+/* .contact-input1 :placeholder-shown{
+  font-size: 35px;
+  padding-left: 20px;
+}
+.contact-input1:only-of-type{
+  font-size: 35px;
+  padding-left: 20px;
+} */
+.contact-input2{
+    height: 50px;
+    width: 100%;
+    background: rgba(68, 106, 255, 0.2);
+    border: 1px solid #4469ff7e;
+    color: white;
+    /* margin-left: 10px; */
+}
+.contact-input2:focus{
+  outline: none;
+  border: 1px solid #446aff;
+  /* box-shadow: 0 0 10px #446aff; */
+}
+::placeholder{
+    color: white;
+    /* padding-left: 10px; */
+    /* margin-left: -10px; */
+}
+.contact-input3{
+    display: flex;
+    align-items: baseline;
+    height: 100px;
+    width: 100%;
+    background: rgba(68, 106, 255, 0.2);
+    border: 1px solid #4469ff7e;
+    color: white;
+    /* margin-left: 10px; */
+}
+.contact-input3:focus{
+  outline: none;
+  border: 1px solid #446aff;
+  /* box-shadow: 0 0 10px #446aff; */
+}
+.contact-input3:only-of-type{
+    justify-content: baseline;
+}
+.drop{
+    width: 100%;
+    /* background-color: red; */
+}
+.drop1{
+    display: flex;
+    height: 50px;
+    /* background-color: aqua; */
+    background: rgba(68, 106, 255, 0.2);
+    border: 1px solid #4469ff7e;
+    width: 100%;
+    align-items: center;
+    /* padding-left: 10px; */
+}
+.drop1 h1{
+    font-size: 15px;
+    font-weight: 400;
+    color: white;
+    margin-left: 10px;
+}
+.drop2{
+    background-color: white;
+}
+.drop2 h1{
+    font-size: 15px;
+    font-weight: 300;
+    color: black;
+    margin-left: 10px;
+    /* padding-left: 10px; */
+}
+.form button{
+    height: 45px;
+    width: 150px;
+    font-size: 14px;
+    color: white;
+    transition: 0.4s;
+    border: none;
+    background-color: rgba(68, 105, 255, 0.708)
+}
+.form button:hover{
+    background-color: #446aff;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.connect{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+.connect h1{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: white;
+}
+.connects{
+    display: flex;
+    /* background-color: aqua; */
+    height: 28vh;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-top: -50px;
+    /* margin-bottom: 30px; */
+}

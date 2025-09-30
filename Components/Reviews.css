@@ -1,0 +1,21 @@
+.reviews{
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    width: 300px;
+    background-color: red;
+}
+.rev-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: aqua;
+}
+.rev-img img{
+    height: 80%;
+    width: 80%;
+    object-fit: cover;
+}

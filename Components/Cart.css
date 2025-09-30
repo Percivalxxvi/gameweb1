@@ -1,0 +1,30 @@
+.cart{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    /* background: url("https://www.flaticon.com/free-icon/grocery-store_3514491?term=cart&page=1&position=5&origin=search&related_id=3514491"); */
+    /* background-color: rgba(66, 3, 3, 0.5); */
+    /* background-color: red; */
+    /* position: absolute; */
+    /* z-index: 999; */
+}
+
+/* .cart:hover{
+        display: flex;
+    } */
+
+/* @media(width>0px){
+    .cart{
+        display: none;
+    }
+} */
+/* @media(width>0px){
+    .cart:hover{
+        display: flex;
+    }
+} */
+ .cart img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+ }

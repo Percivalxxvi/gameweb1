@@ -1,0 +1,31 @@
+.abbtt{
+    height: 60px;
+    width: 350px;
+    /* background-color: chartreuse; */
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.abbtt-img{
+    height: 85%;
+    width: 15%;
+    /* background-color: aqua; */
+    border: 1px solid #4469ff7e;
+    background: rgba(68, 106, 255, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.abbtt-img img{
+    height: 40%;
+    width: 40%;
+    object-fit: contain;
+}
+.abbtt h1{
+    color: white;
+    font-size: 20px;
+}
+.abbtt p{
+    color: white;
+    font-size: 12px;
+}
