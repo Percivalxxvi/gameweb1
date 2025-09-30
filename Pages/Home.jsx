@@ -9,6 +9,7 @@ import Footer from '../Components/Footer'
 
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import { Squash as Hamburger } from 'hamburger-react'
 
 
 import clock from "../src/assets/clock.png"
@@ -20,9 +21,12 @@ import letter from "../src/assets/letter.png"
 import blueletter from "../src/assets/blueletter.png"
 import skype from "../src/assets/skype.png"
 import blueskype from "../src/assets/blueskype.png"
+import { useState } from "react"
+import Navmob from '../Components/Navmob'
 
 
 const Home = () => {
+  const [isOpen, setOpen] = useState(false)
   const responsive = {
   superLargeDesktop: {
     // the naming can be any, depends on you.
@@ -55,8 +59,10 @@ const Home = () => {
               </div>
           </div>
 
-        
+            
             <Navpc page="home"/>
+            <Navmob page1={"Home"}/>
+            
           
 
           <div className='news0'>
@@ -81,13 +87,13 @@ const Home = () => {
             txt="Get A Free PC Game Right NowHumble Store"
             date="20 Sept 2025"
             plat="PC"/>
-
-             {/* <Nnews image="https://xtratheme.com/elementor/game/wp-content/uploads/sites/84/elementor/thumbs/p2-pfgmuvpan6yloq8izcii25hg38wp8ozfk83v3z818g.jpg" 
+<div>
+               {/* <Nnews image="https://xtratheme.com/elementor/game/wp-content/uploads/sites/84/elementor/thumbs/p2-pfgmuvpan6yloq8izcii25hg38wp8ozfk83v3z818g.jpg" 
             txt="Get A Free PC Game Right NowHumble Store"
             date="20 Sept 2025"
             plat="PC"/> */}
             {/* <button>move</button> */}
-          </div>
+          
 
           {/* <Carousel responsive={responsive}
           containerClass='carousel-container'>
@@ -105,6 +111,9 @@ const Home = () => {
             <div className='ccd1'>Item 6</div>
             <div className='ccd1'>Item 7</div>
           </Carousel>; */}
+          </div>
+</div>
+            
 
           <div className='section-a'>
               <div className='secdiv1'>
@@ -212,7 +221,7 @@ const Home = () => {
                   <p className='opts'>{">"} GameSpot Live</p>
                   <p className='opts'>{">"} XG Updates</p>
                   <p className='opts'>{">"} Latest Reviews</p>
-                  <p className='opts'>{">"} Xbox cs PS4</p>
+                  <p className='opts'>{">"} Xbox vs PS4</p>
                   <p className='opts'>{">"} Chat Support</p>
                 </div>
                 <div className='end3'>
@@ -229,8 +238,12 @@ const Home = () => {
                   <p className='opts'>{">"} Our Partnerships</p>
                 </div>
             </div>
-            <Footer/>
+           
           </div>
+          <div className='foota'>
+               <Footer/>
+          </div>
+          
       </div>
     </div>
   )

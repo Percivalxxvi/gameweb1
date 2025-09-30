@@ -162,7 +162,7 @@
     font-size: 15px;
     font-weight: 300;
     color: black;
-    margin-left: 10px;
+    /* margin-left: 10px; */
     /* padding-left: 10px; */
 }
 .form button{
@@ -199,4 +199,40 @@
     gap: 15px;
     margin-top: -50px;
     /* margin-bottom: 30px; */
+}
+
+
+@media(width<= 500px){
+    .contact-items{
+        flex-direction: column;
+        gap: 30px;
+        /* background-color: chartreuse; */
+        height: fit-content;
+    }
+    .contact-item h1{
+        /* background-color: #446aff; */
+        width: 80%;
+    }
+    .contact-item p{
+        margin-bottom: 20px;
+    }
+    .contact-item{
+        width: 70%;
+        border-bottom:1px solid #446aff;
+    }
+    .form{
+        width: 95%;
+    }
+    .connect{
+        height: fit-content;
+        gap: 50px;
+    }
+    .connects{
+        flex-wrap: wrap;
+        height: fit-content;
+        /* background-color: #446aff; */
+    }
+    .socialm-txt{
+        display: none;
+    }
 }

@@ -20,6 +20,7 @@ import behance from "../src/assets/behance.png"
 import instagram from "../src/assets/instagram.png"
 import Abouttick from '../Components/Abouttick'
 import Reviews from '../Components/Reviews'
+import Navmob from '../Components/Navmob'
 
 const About = () => {
   return (
@@ -33,8 +34,10 @@ const About = () => {
                   <img src="https://xtratheme.com/elementor/game/wp-content/uploads/sites/84/2018/04/ads3-1.jpg" alt="" />
               </div>
           </div>
+          
 
           <Navpc page="about"/>
+          <Navmob page1={"About"}/>
 
           <div className='about-os'>
             <div className='about1'>
@@ -72,8 +75,8 @@ const About = () => {
               <div className='cust1'><h1>What Says Our Happy Customers</h1></div>
               <div className='cust2'>
                   <Reviews/>
-                   <Reviews/>
-                   <Reviews/>
+                  <Reviews/>
+                  <Reviews/>
               </div>
           </div>
           <div className='end'>
@@ -100,7 +103,7 @@ const About = () => {
                   <p className='opts'>{">"} GameSpot Live</p>
                   <p className='opts'>{">"} XG Updates</p>
                   <p className='opts'>{">"} Latest Reviews</p>
-                  <p className='opts'>{">"} Xbox cs PS4</p>
+                  <p className='opts'>{">"} Xbox vs PS4</p>
                   <p className='opts'>{">"} Chat Support</p>
                 </div>
                 <div className='end3'>
@@ -117,8 +120,15 @@ const About = () => {
                   <p className='opts'>{">"} Our Partnerships</p>
                 </div>
             </div>
-            <Footer/>
+              
           </div>
+          <div className='foota'>
+               <Footer/>
+          </div>
+          <div>
+               {/* <Footer/> */}
+          </div>
+         
       </div>
     </div>
   )

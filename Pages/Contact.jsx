@@ -20,6 +20,7 @@ import vk from "../src/assets/vk.png"
 import dribble from "../src/assets/dribble.png"
 import behance from "../src/assets/behance.png"
 import instagram from "../src/assets/instagram.png"
+import Navmob from '../Components/Navmob'
 
 const Contact = () => {
   const [selec,setSelec]=useState(true)
@@ -55,7 +56,9 @@ const Contact = () => {
                   <img src="https://xtratheme.com/elementor/game/wp-content/uploads/sites/84/2018/04/ads3-1.jpg" alt="" />
               </div>
           </div>
+          
           <Navpc page="contact"/>
+          <Navmob page1={"Contact"}/>
           <div className='contact'>
             <h1>Get in Touch with us!</h1>
             <div className='contact-items'>
@@ -149,7 +152,7 @@ const Contact = () => {
                   <p className='opts'>{">"} GameSpot Live</p>
                   <p className='opts'>{">"} XG Updates</p>
                   <p className='opts'>{">"} Latest Reviews</p>
-                  <p className='opts'>{">"} Xbox cs PS4</p>
+                  <p className='opts'>{">"} Xbox vs PS4</p>
                   <p className='opts'>{">"} Chat Support</p>
                 </div>
                 <div className='end3'>
@@ -166,7 +169,9 @@ const Contact = () => {
                   <p className='opts'>{">"} Our Partnerships</p>
                 </div>
             </div>
-            <Footer/>
+          </div>
+          <div className='foota'>
+               <Footer/>
           </div>
       </div>
       

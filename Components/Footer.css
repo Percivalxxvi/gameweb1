@@ -39,17 +39,21 @@
 }
 @media(width<=500px){
     .footer{
-        display: none;
+        /* display: none; */
         flex-direction: column;
         height: fit-content;
         gap: 10px;
         padding: 10px 0 10px 0;
         align-items: center;
         justify-content:center;
+        margin-top: 130px;
+        width: 100%;
         /* background-color: blue; */
     }
     .footer h1{
         font-size: 12px;
+        font-weight: bolder;
+        color: #f0f0f0;
     }
     .footer-links{
         gap: 10px;

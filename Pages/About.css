@@ -63,12 +63,13 @@
 }
 .customers{
     width: 90%;
-    height: 90vh;
+    height: 95vh;
     display: flex;
     flex-direction: column;
     /* background-color: blue; */
     align-items: center;
     justify-content: center;
+    gap: 30px;
 }
 .cust1{
     width: 35%;
@@ -78,12 +79,57 @@
 .cust1 h1{
     color: #f0f0f0;
     font-size: 45px;
+    margin-bottom: 30px;
 }
 .cust2{
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 20px;
     width: 90%;
-    height: 70%;
-    background-color: yellow;
+    height: 65%;
+    /* background-color: yellow; */
+}
+/* .mobpg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    width: 90%;
+    background-color: blueviolet;
+} */
+.mobpg h1{
+    font-size: 25px;
+    color: #f0f0f0;
+}
+
+@media(width<=500px){
+    .about-os{
+        flex-direction: column;
+    }
+    .about-txt{
+        width: 180%;
+        /* background-color: chartreuse; */
+    }
+    .about1{
+        margin-top: 80px;
+    }
+    .about-tick{
+        flex-wrap: nowrap;
+        justify-content: center;
+        flex-direction: column;
+        /* background-color: chartreuse; */
+    }
+    .customers{
+        height: fit-content;
+        margin-top: 300px;
+    }
+    .cust1{
+        width: 100%;
+        /* background-color: chartreuse; */
+    }
+    .cust2{
+        flex-direction: column;
+        gap: 80px;
+    }
 }
