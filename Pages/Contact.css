@@ -202,7 +202,7 @@
 }
 
 
-@media(width<= 500px){
+@media(width<= 800px){
     .contact-items{
         flex-direction: column;
         gap: 30px;
@@ -216,6 +216,9 @@
     .contact-item p{
         margin-bottom: 20px;
     }
+    /* .contact-img{
+        margin-top: 50px;
+    } */
     .contact-item{
         width: 70%;
         border-bottom:1px solid #446aff;

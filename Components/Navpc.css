@@ -166,7 +166,7 @@
 }
 
 
-@media(width<=500px){
+@media(width<=800px){
     .navpc{
         display: none;
     }

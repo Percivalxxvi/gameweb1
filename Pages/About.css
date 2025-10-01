@@ -103,7 +103,7 @@
     color: #f0f0f0;
 } */
 
-@media(width<=500px){
+@media(width<=800px){
     .about-os{
         flex-direction: column;
     }
@@ -112,7 +112,7 @@
         /* background-color: chartreuse; */
     }
     .about1{
-        margin-top: 80px;
+        margin-top: 200px;
     }
     .about-tick{
         flex-wrap: nowrap;
