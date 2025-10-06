@@ -7,7 +7,7 @@ import Items from '../Components/Items'
 import Info from '../Components/Info'
 import Footer from '../Components/Footer'
 
-import Carousel from "react-multi-carousel";
+// import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { Squash as Hamburger } from 'hamburger-react'
 
@@ -23,6 +23,7 @@ import skype from "../src/assets/skype.png"
 import blueskype from "../src/assets/blueskype.png"
 import { useState } from "react"
 import Navmob from '../Components/Navmob'
+// import Carousel from "../Components/Carousel";
 
 
 const Home = () => {
@@ -64,7 +65,29 @@ const Home = () => {
             <Navpc page="home"/>
             <Navmob page1={"Home"}/>
             
-          
+          {/* <div className="min-h-screen bg-gray-100 flex items-center justify-center p-6">
+      <Carousel>
+            <Nnews image="https://xtratheme.com/elementor/game/wp-content/uploads/sites/84/elementor/thumbs/p6-pfgmvuhbo2a7mau0c9jp4epi2i5a5hti108tv7sgu8.jpg" 
+            txt="New Monster Hunter World Quest Adds Helmet " 
+            date="20 Sept 2025"
+            plat="Xbox"/>
+
+            <Nnews image="https://xtratheme.com/elementor/game/wp-content/uploads/sites/84/elementor/thumbs/p8-pfgmvm0ryjympt6apnw1zyucq1az87vwzudgjq50e8.jpg" 
+            txt="See Valve's New Card Game Artifact In Action" 
+            date="20 Sept 2025"
+            plat="Wii"/>
+
+            <Nnews image="https://xtratheme.com/elementor/game/wp-content/uploads/sites/84/elementor/thumbs/p16-pfgmv61iqdcr8ftiayzebkvimhhqld4h9na7e0spc0.jpg" 
+            txt="Game Release Dates Far Cry 6 and Red Dead 2" 
+            date="20 Sept 2025"
+            plat="PS5"/>
+
+            <Nnews image="https://xtratheme.com/elementor/game/wp-content/uploads/sites/84/elementor/thumbs/p2-pfgmuvpan6yloq8izcii25hg38wp8ozfk83v3z818g.jpg" 
+            txt="Get A Free PC Game Right NowHumble Store"
+            date="20 Sept 2025"
+            plat="PC"/>
+      </Carousel>
+    </div> */}
 
           <div className='news0'>
             
