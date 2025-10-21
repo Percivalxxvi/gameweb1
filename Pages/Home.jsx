@@ -23,7 +23,12 @@ import skype from "../src/assets/skype.png"
 import blueskype from "../src/assets/blueskype.png"
 import { useState } from "react"
 import Navmob from '../Components/Navmob'
-// import Carousel from "../Components/Carousel";
+import Carousel from "../Components/Carousel";
+
+
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 
 const Home = () => {
@@ -65,7 +70,7 @@ const Home = () => {
             <Navpc page="home"/>
             <Navmob page1={"Home"}/>
             
-          {/* <div className="min-h-screen bg-gray-100 flex items-center justify-center p-6">
+          {/* <div className="min-h-screen bg-blue-500  flex items-center justify-center p-6">
       <Carousel>
             <Nnews image="https://xtratheme.com/elementor/game/wp-content/uploads/sites/84/elementor/thumbs/p6-pfgmvuhbo2a7mau0c9jp4epi2i5a5hti108tv7sgu8.jpg" 
             txt="New Monster Hunter World Quest Adds Helmet " 
@@ -86,8 +91,18 @@ const Home = () => {
             txt="Get A Free PC Game Right NowHumble Store"
             date="20 Sept 2025"
             plat="PC"/>
+            <Nnews image="https://xtratheme.com/elementor/game/wp-content/uploads/sites/84/elementor/thumbs/p2-pfgmuvpan6yloq8izcii25hg38wp8ozfk83v3z818g.jpg" 
+            txt="Get A Free PC Game Right NowHumble Store"
+            date="20 Sept 2025"
+            plat="PC"/>
+            <Nnews image="https://xtratheme.com/elementor/game/wp-content/uploads/sites/84/elementor/thumbs/p2-pfgmuvpan6yloq8izcii25hg38wp8ozfk83v3z818g.jpg" 
+            txt="Get A Free PC Game Right NowHumble Store"
+            date="20 Sept 2025"
+            plat="PC"/>
       </Carousel>
     </div> */}
+
+            <Carousel/>
 
           <div className='news0'>
             

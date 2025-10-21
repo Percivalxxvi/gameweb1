@@ -3,22 +3,22 @@
     flex-direction: column;
     align-items: center;
     justify-content: end;
-    height: 95%;
-    width: 120%;
+    /* height: 95%; */
+    /* width: 120%; */
     transition: 0.5s;
     background-color: blueviolet;
     overflow: hidden;
      /* z-index: 40; */
     /* position: absolute; */
-     /* width: 450px; */
-     /* height: 600px; */
+     width: 350px;
+     height: 500px;
 }
 .nnews-txt{
     display: flex;
     flex-direction: column;
     color: white;
-    height: 15%;
-    width: 19%;
+    /* height: 15%; */
+    /* width: 19%; */
     /* background-color: black; */
     background: linear-gradient(to top,rgba(3, 1, 12, 0.9),
     rgba(154, 154, 155, 0.05));
@@ -26,6 +26,7 @@
     z-index: 99;
     transition: 0.5s;
     gap: 10px;
+
 }
 .nnews-txt h1{
     font-size: 20px;

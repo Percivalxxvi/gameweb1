@@ -103,7 +103,7 @@
     color: #f0f0f0;
 } */
 
-@media(width<=800px){
+@media(width<=1440px){
     .about-os{
         flex-direction: column;
     }
