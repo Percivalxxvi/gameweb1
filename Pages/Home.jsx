@@ -102,13 +102,13 @@ const Home = () => {
       </Carousel>
     </div> */}
 
-            <Carousel/>
+            {/* <Carousel/> */}
 
           <div className='news0'>
             
              {/* <button>move</button> */}
             <Nnews image="https://xtratheme.com/elementor/game/wp-content/uploads/sites/84/elementor/thumbs/p6-pfgmvuhbo2a7mau0c9jp4epi2i5a5hti108tv7sgu8.jpg" 
-            txt="New Monster Hunter World Quest Adds Helmet " 
+            txt="New Monster Hunter World Quest Adds Helmet" 
             date="20 Sept 2025"
             plat="Xbox"/>
 
@@ -160,7 +160,7 @@ const Home = () => {
                   <h1>TRENDING</h1>
                   <div className='secdiv1a-line'></div>
                   <div className='secdiv1a-title'>
-                    <h3>uydotdlyufluydlutdlyufluydluydludfl;ifg</h3>
+                    <h3>New Monster Hunter World Quest Adds Helmet</h3>
                     <div className='secdiv1a-arrow'>
                     <button>{"<"}</button> 
                     <button>{">"}</button>
