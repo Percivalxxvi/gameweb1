@@ -130,14 +130,14 @@
 @media(width<=1440px){
     .about-os{
         flex-direction: column;
-    }
-    .about-txt{
-        width: 180%;
+        height: fit-content;
         /* background-color: chartreuse; */
     }
-    .about1{
-        margin-top: 200px;
+    .about-txt{
+        width: 160%;
+        /* background-color: chartreuse; */
     }
+    
     .about-tick{
         flex-wrap: nowrap;
         align-items: center;
