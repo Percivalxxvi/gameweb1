@@ -16,11 +16,6 @@
     align-items: center;
     justify-content: center;
 }
-.abbtt-img img{
-    height: 40%;
-    width: 40%;
-    object-fit: contain;
-}
 .abbtt h1{
     color: white;
     font-size: 20px;

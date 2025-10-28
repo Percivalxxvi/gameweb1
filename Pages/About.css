@@ -61,6 +61,30 @@
     align-items: center;
     justify-content: center;
 }
+.tick2 {
+    display: flex;
+    /* background-color: blue; */
+    height: 100px;
+    width: 350px;
+    align-items: center;
+    justify-content: center;
+}
+.tick3 {
+    display: flex;
+    /* background-color: blue; */
+    height: 100px;
+    width: 350px;
+    align-items: center;
+    justify-content: center;
+}
+.tick4 {
+    display: flex;
+    /* background-color: blue; */
+    height: 100px;
+    width: 350px;
+    align-items: center;
+    justify-content: center;
+}
 .customers{
     width: 90%;
     height: 95vh;
@@ -116,13 +140,36 @@
     }
     .about-tick{
         flex-wrap: nowrap;
+        align-items: center;
         justify-content: center;
         flex-direction: column;
         /* background-color: chartreuse; */
+       
+    }
+    .tick1{
+        /* background-color: red; */
+        width: 85%;
+        margin-bottom: 30px;
+    }
+    .tick2 {
+        /* background-color: red; */
+        width: 85%;
+        margin-bottom: 50px;
+    }
+    .tick3 {
+        /* background-color: red; */
+        width: 85%;
+        margin-bottom: 30px;
+    }
+    .tick4 {
+        /* background-color: red; */
+        width: 85%;
+    }
+    .about-os{
+        height: fit-content;
     }
     .customers{
         height: fit-content;
-        margin-top: 300px;
     }
     .cust1{
         width: 100%;

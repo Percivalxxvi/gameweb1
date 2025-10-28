@@ -55,15 +55,15 @@ const About = () => {
                 <div className='tick1'>
                      <Abouttick txt="Latest Games News" txt2="All new updates daily"/>
                 </div>
-                <div className='tick1'>
+                <div className='tick2'>
                      <Abouttick txt="New Entertainments" txt2="Products available in Shop"/>
                 </div>
               </div>
               <div className='about-tick'>
-                  <div className='tick1'>
+                  <div className='tick3'>
                      <Abouttick txt="Gamers Forums" txt2="Online discussions about games"/>
                 </div>
-                <div className='tick1'>
+                <div className='tick4'>
                      <Abouttick txt="Online Games" txt2="Play online games around the world"/>
                 </div>
               </div>
