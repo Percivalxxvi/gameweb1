@@ -122,7 +122,7 @@ const About = () => {
                 </div>
             </div>
             <Totop/>
-              <Footer/>
+            <Footer/>
           </div>
           <div>
           </div>
