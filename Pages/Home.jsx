@@ -30,6 +30,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import NewsSlider from '../Components/Newsslider'
+import Totop from "../Components/Totop";
 
 
 const Home = () => {
@@ -74,9 +75,9 @@ const Home = () => {
 
         <Navpc page="home" />
         <Navmob page1={"Home"} />
-        
-          <NewsSlider />
-        
+
+        <NewsSlider />
+
         <div className="news0 lg:flex hidden">
           <Nnews
             image="https://xtratheme.com/elementor/game/wp-content/uploads/sites/84/elementor/thumbs/p6-pfgmvuhbo2a7mau0c9jp4epi2i5a5hti108tv7sgu8.jpg"
@@ -278,10 +279,10 @@ const Home = () => {
               <p className="opts">{">"} Our Partnerships</p>
             </div>
           </div>
-        </div>
-        <div className="foota">
+          <Totop/>
           <Footer />
         </div>
+        {/* <Footer /> */}
       </div>
     </div>
   );

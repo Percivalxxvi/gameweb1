@@ -46,14 +46,15 @@
         padding: 10px 0 10px 0;
         align-items: center;
         justify-content:center;
-        margin-top: 130px;
+        /* margin-top: 130px; */
         width: 100%;
         /* background-color: blue; */
     }
     .footer h1{
-        font-size: 12px;
+        font-size: 11px;
         font-weight: bolder;
         color: #f0f0f0;
+        text-align: center;
     }
     .footer-links{
         gap: 10px;

@@ -59,6 +59,7 @@ const NewsSlider = () => {
     autoplay: true,
     autoplaySpeed: 3500,
     arrows:false,
+    pauseOnHover:false,
     responsive: [
       {
         breakpoint: 1024, // tablet

@@ -21,6 +21,7 @@ import dribble from "../src/assets/dribble.png"
 import behance from "../src/assets/behance.png"
 import instagram from "../src/assets/instagram.png"
 import Navmob from '../Components/Navmob'
+import Totop from '../Components/Totop'
 
 const Contact = () => {
   const [selec,setSelec]=useState(true)
@@ -169,9 +170,8 @@ const Contact = () => {
                   <p className='opts'>{">"} Our Partnerships</p>
                 </div>
             </div>
-          </div>
-          <div className='foota'>
-               <Footer/>
+            <Totop/>
+            <Footer/>
           </div>
       </div>
       

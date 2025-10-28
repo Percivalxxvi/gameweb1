@@ -759,7 +759,7 @@
         object-fit: cover;
     }
     .end{
-        height: 120vh;
+        height: fit-content;
         width: 95%;
         /* overflow-y: hidden; */
         /* background-color: #446aff; */

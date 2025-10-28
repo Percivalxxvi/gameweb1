@@ -21,6 +21,7 @@ import instagram from "../src/assets/instagram.png"
 import Abouttick from '../Components/Abouttick'
 import Reviews from '../Components/Reviews'
 import Navmob from '../Components/Navmob'
+import Totop from "../Components/Totop";
 
 const About = () => {
   return (
@@ -120,13 +121,10 @@ const About = () => {
                   <p className='opts'>{">"} Our Partnerships</p>
                 </div>
             </div>
-              
-          </div>
-          <div className='foota'>
-               <Footer/>
+            <Totop/>
+              <Footer/>
           </div>
           <div>
-               {/* <Footer/> */}
           </div>
          
       </div>
