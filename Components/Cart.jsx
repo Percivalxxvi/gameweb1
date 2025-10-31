@@ -19,7 +19,7 @@ const Cart = () => {
     onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
       style={{
-        backgroundColor: show ? 'rgba(34, 2, 2, 0.2)' : 'transparent',
+        backgroundColor: show ? 'rgba(34, 2, 2, 0.3)' : 'transparent',
         cursor: 'pointer',
         // backgroundImage: show ? 'url("../src/assets/cart.png")' : 'none',
         backgroundPosition:"center center",

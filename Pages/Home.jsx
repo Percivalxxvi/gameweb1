@@ -193,7 +193,7 @@ const Home = () => {
             image="https://xtratheme.com/elementor/game/wp-content/uploads/sites/84/2018/04/pr5.png"
             txt1="PS4 DualShock"
             txt2="PS4"
-            price="$100 $99"
+            price="$̶1̶0̶0̶ $99"
           />
           <Items
             image="https://xtratheme.com/elementor/game/wp-content/uploads/sites/84/2018/04/pr4.png"
@@ -279,7 +279,7 @@ const Home = () => {
               <p className="opts">{">"} Our Partnerships</p>
             </div>
           </div>
-          <Totop/>
+          <Totop />
           <Footer />
         </div>
         {/* <Footer /> */}
